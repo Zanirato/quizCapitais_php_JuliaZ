@@ -8,8 +8,9 @@
 /* Estilo global da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa; /* Cor suave e refrescante, tema relacionado à Geografia */
-    color: #333;
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/03/mapa-mundi-mercator.jpg?w=420&h=240&crop=1&quality=85');
+    background-size:cover;
+    color: #550000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,7 @@ body {
 
 /* Container principal (para o início, final e parte do jogo) */
 .container {
-    background: linear-gradient(to right, #81d4fa, #4fc3f7); /* Gradiente azul que remete ao céu */
+    background: linear-gradient(to right, #50ab6e, #50ab6e); /* Gradiente azul que remete ao céu */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -33,12 +34,12 @@ body {
 h1 {
     font-weight: bolder;
     font-size: 3rem;
-    color: #0277bd;
+    color: #fdff9c;
 }
 
 h3 {
     font-size: 2.5rem;
-    color: #0277bd;
+    color: #ff8724;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -47,7 +48,7 @@ h3 {
 hr {
     border: 0;
     height: 2px;
-    background: #0277bd;
+    background: #ffd15d;
     margin: 20px 0;
 }
 
@@ -55,19 +56,19 @@ hr {
 h5, h4 {
     font-size: 1.4rem;
     font-weight: bold;
-    color: #01579b;
+    color: #95cbf4;
 }
 
 /* Destacar a quantidade de questões */
 h5 strong {
     font-size: 1.6rem;
-    color: #0288d1;
+    color: #8492d5;
 }
 
 /* Destaque para o nome do país */
 h4 strong {
     font-size: 1.8rem;
-    color: #f57c00; /* Cor vibrante de vermelho para o nome do país */
+    color: #ffb062; /* Cor vibrante de vermelho para o nome do país */
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -77,8 +78,8 @@ h4 strong {
 /* Estilo das alternativas */
 div h3 {
     font-size: 1.6rem;
-    background-color: #ffffff;
-    color: #0277bd;
+    background-color: #8d7242;
+    color: #c6ffe8;
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
@@ -88,15 +89,15 @@ div h3 {
 
 /* Efeito ao passar o mouse sobre as alternativas */
 div h3:hover {
-    background-color: #0288d1;
-    color: white;
+    background-color: #c6ffe8;
+    color: #8d7242;
     transform: scale(1.05);
 }
 
 /* Estilo para o botão "Desistir" */
 a {
     font-size: 1.2rem;
-    color: #ffb300;
+    color: #f9cf6c;
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
@@ -106,14 +107,14 @@ a {
 
 /* Efeito ao passar o mouse sobre o link "Desistir" */
 a:hover {
-    color: #f57c00;
+    color: #ffb062;
 }
 
 /* Estilo para a parte final do jogo */
 
 /* Resultados do jogo */
 .result-container {
-    background: linear-gradient(to right, #ffeb3b, #ff9800); /* Gradiente de amarelo e laranja */
+    background: linear-gradient(to right, #50ab6e, #50ab6e); /* Gradiente de amarelo e laranja */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -126,7 +127,7 @@ a:hover {
 /* Resultados (total de questões, corretas e erradas) */
 .result-container h3 {
     font-size: 1.8rem;
-    color: #01579b;
+    color: #c6ffe8;
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -135,12 +136,12 @@ a:hover {
 .result-container .result-value {
     font-size: 2rem;
     font-weight: bold;
-    color: #0277bd; /* Azul para maior contraste */
+    color: #9effd8; /* Azul para maior contraste */
 }
 
 /* Botão para jogar novamente */
 .result-container .btn-secondary {
-    background-color: #0288d1;
+    background-color: #68b1d9;
     color: white;
     font-size: 1.2rem;
     padding: 15px;
@@ -154,7 +155,7 @@ a:hover {
 
 /* Efeito ao passar o mouse sobre o botão "Jogar novamente" */
 .result-container .btn-secondary:hover {
-    background-color: #01579b;
+    background-color: #3d89c3;
     transform: scale(1.05);
 }
 
@@ -194,7 +195,7 @@ a:hover {
 
 /* Estilo do botão no formulário de início */
 .btn {
-    background-color: #ffb300; /* Cor vibrante de amarelo */
+    background-color: #efc052; /* Cor vibrante de amarelo */
     color: white;
     font-size: 1.2rem;
     padding: 15px;
@@ -206,6 +207,6 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #f57c00;
+    background-color: #ffb062;
     transform: scale(1.05);
 }
